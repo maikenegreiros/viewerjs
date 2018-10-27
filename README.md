@@ -63,6 +63,12 @@ Include files:
 <script src="/path/to/viewer.js"></script>
 ```
 
+Instead of appending a script tag in an HTML file you can use ES Modules and import Viewer.js directly in your JS file:
+
+```js
+import Viewer from 'viewerjs'
+```
+
 ### Usage
 
 #### Syntax
